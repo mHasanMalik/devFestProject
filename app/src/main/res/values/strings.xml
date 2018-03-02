@@ -5,4 +5,6 @@
     <string name="password_signUp">Password</string>
     <string name="confirm_password_signUp">Confirm Password</string>
     <string name="btn_signUp">Sign Up</string>
+    <string name="password_signIn">password</string>
+    <string name="email_SignIn">email</string>
 </resources>

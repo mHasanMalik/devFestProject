@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.project.Devlot.tripcast.Activity.UserSign_upActivity">
+
+    <EditText
+        android:id="@+id/eT_userName_signUp_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/userName_signUp"/>
+
+    <EditText
+        android:id="@+id/eT_email_signUp_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_signUp"/>
+    <EditText
+        android:id="@+id/eT_password_signUp_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_signUp"/>
+
+    <EditText
+        android:id="@+id/eT_confirmPassword_signUp_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password_signUp"/>
+
+    <Button
+        android:id="@+id/btn_signUp_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_signUp"/>
+
+</LinearLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Tripcast</string>
+    <string name="getStartedText">Get Started</string>
 </resources>

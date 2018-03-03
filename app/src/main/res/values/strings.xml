@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Tripcast</string>
+    <string name="getStartedText">Get Started</string>
+    <string name="userName_signUp">UserName</string>
+    <string name="email_signUp">Email</string>
+    <string name="password_signUp">Password</string>
+    <string name="confirm_password_signUp">Confirm Password</string>
+    <string name="btn_signUp">Sign Up</string>
+    <string name="password_signIn">password</string>
+    <string name="email_SignIn">email</string>
 </resources>

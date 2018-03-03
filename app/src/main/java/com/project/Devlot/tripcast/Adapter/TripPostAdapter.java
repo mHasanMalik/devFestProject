@@ -29,7 +29,7 @@ public class TripPostAdapter extends RecyclerView.Adapter<TripPostAdapter.TripPo
 //
 //        return new TripPostViewHolder(tripPostView);
 
-        return null;
+        return null; // Remove this.
     }
 
     @Override

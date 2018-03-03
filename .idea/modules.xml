@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://E:\New folder\Abdullah\Computer Science\AndroidStudioProjects\devFestProject\Tripcast.iml" filepath="E:\New folder\Abdullah\Computer Science\AndroidStudioProjects\devFestProject\Tripcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/devFestProject.iml" filepath="$PROJECT_DIR$/devFestProject.iml" />
     </modules>

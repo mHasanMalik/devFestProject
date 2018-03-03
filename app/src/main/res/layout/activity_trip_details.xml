@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEF"
+    tools:context="com.project.Devlot.tripcast.Activity.TripDetailsActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ic_tag_friendsFab_tripDetails_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ic_addFab_tripDetails_xml"
+        android:layout_alignLeft="@+id/ic_addFab_tripDetails_xml"
+        android:layout_alignStart="@+id/ic_addFab_tripDetails_xml"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/ic_tag_friends"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorFAB3"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ic_locationsFab_tripDetails_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ic_cameraFab_tripDetails_xml"
+        android:layout_alignLeft="@+id/ic_cameraFab_tripDetails_xml"
+        android:layout_alignStart="@+id/ic_cameraFab_tripDetails_xml"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/ic_locations"
+        app:backgroundTint="@color/colorFAB4"
+        android:visibility="invisible"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ic_cameraFab_tripDetails_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ic_photosFab_tripDetails_xml"
+        android:layout_alignLeft="@+id/ic_photosFab_tripDetails_xml"
+        android:layout_alignStart="@+id/ic_photosFab_tripDetails_xml"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/ic_camera"
+        app:backgroundTint="@color/colorFAB5"
+        android:visibility="invisible"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ic_photosFab_tripDetails_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ic_noteFab_tripDetails_xml"
+        android:layout_alignLeft="@+id/ic_noteFab_tripDetails_xml"
+        android:layout_alignStart="@+id/ic_noteFab_tripDetails_xml"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="17dp"
+        android:src="@drawable/ic_photos"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorFAB6"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ic_noteFab_tripDetails_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ic_tag_friendsFab_tripDetails_xml"
+        android:layout_alignLeft="@+id/ic_tag_friendsFab_tripDetails_xml"
+        android:layout_alignStart="@+id/ic_tag_friendsFab_tripDetails_xml"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/ic_note"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorFAB1"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ic_addFab_tripDetails_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/colorAccent"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp" />
+
+</RelativeLayout>

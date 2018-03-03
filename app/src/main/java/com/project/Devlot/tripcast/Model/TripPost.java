@@ -2,7 +2,7 @@ package com.project.Devlot.tripcast.Model;
 
 
 /**
- * Created by hassa on 03-Mar-18.
+ * Created by faraz on 03-Mar-18.
  */
 
 public class TripPost {

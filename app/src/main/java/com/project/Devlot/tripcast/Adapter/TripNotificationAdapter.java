@@ -13,7 +13,7 @@ import com.project.Devlot.tripcast.R;
 import java.util.List;
 
 /**
- * Created by hassa on 03-Mar-18.
+ * Created by faraz on 03-Mar-18.
  */
 
 public class TripNotificationAdapter extends  RecyclerView.Adapter<TripNotificationAdapter.TripNotificationViewHolder>{

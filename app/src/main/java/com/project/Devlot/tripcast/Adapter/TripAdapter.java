@@ -15,7 +15,7 @@ import org.w3c.dom.Text;
 import java.util.List;
 
 /**
- * Created by hassa on 03-Mar-18.
+ * Created by faraz on 03-Mar-18.
  */
 
 public class TripAdapter extends RecyclerView.Adapter<TripAdapter.TripViewHolder> {

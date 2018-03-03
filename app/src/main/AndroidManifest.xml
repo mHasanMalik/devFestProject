@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity.UserSign_upActivity" />
-        <activity android:name=".Activity.Sign_inActivity"></activity>
+        <activity android:name=".Activity.Sign_inActivity" />
+        <activity android:name=".Activity.TripDetailsActivity"></activity>
     </application>
 
 </manifest>
